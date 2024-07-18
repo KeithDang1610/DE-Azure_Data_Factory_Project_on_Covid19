@@ -14,6 +14,9 @@
 		"ls_db_covid_cluster_accessToken": {
 			"value": ""
 		},
+		"ls_sql_covid_db_password": {
+			"value": ""
+		},
 		"ls_adls_covidreportdalake_properties_typeProperties_url": {
 			"value": "https://covidreportdalake.dfs.core.windows.net/"
 		},
@@ -22,6 +25,15 @@
 		},
 		"ls_http_opendata_github_covid19_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_sql_covid_db_properties_typeProperties_server": {
+			"value": "covid-database-sqlserver.database.windows.net"
+		},
+		"ls_sql_covid_db_properties_typeProperties_database": {
+			"value": "covid-db"
+		},
+		"ls_sql_covid_db_properties_typeProperties_userName": {
+			"value": "adm"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/ab1b22db-c0f7-4b65-80a8-8a085647e332/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportpro"
